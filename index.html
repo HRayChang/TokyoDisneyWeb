@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/tokyo_icon.png" type="img/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tokyo & Disney</title>
+</head>
+<body>
+    <audio autoplay>
+        <source src="img/disney_intro.mp3" type="audio/mp3">
+    </audio>
+    <header class="header" id="header">
+        <!-- Navigation -->
+        <div class="navigation">
+            <nav class="nav d-flex">
+                <div class="logo">
+                    <a href="/">
+                        <img loading="lazy" src="img/tokyo_logo.png" alt="">
+                    </a>
+                </div>
+                
+                <ul class="nav-list d-flex">
+                    <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#hotel" class="nav-link">Hotel</a></li>
+                    <li class="nav-item"><a href="#flight" class="nav-link">Flight</a></li>
+                    <li class="nav-item"><a href="#attraction" class="nav-link">Disney</a></li>
+                    <li class="nav-item"><a href="#cuisine" class="nav-link">Cuisine</a></li>
+                </ul>
+                
+                <a href="#" class="btn sign-up">Sign Up</a>
+                
+                <div class="hamburger">
+                    <i class="bx bx-menu-alt-left"></i>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Hero -->
+        <div class="swiper-container slider-1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <video muted loop autoplay>
+                        <source src="img/disney_intro.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="swiper-slide">
+                    <img loading="lazy" src="img/pic_迪士尼40.PNG" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img loading="lazy" src="img/pic_迪士尼.PNG" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img loading="lazy" src="img/pic_東京鐵塔.PNG" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <div id="myHeading" style="display: none;">
+                <h1>
+                    Get Ready for <br>
+                    Tokyo & Disney
+                </h1>
+
+                <a href="" class="btn">Let's Go!</a>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <!-- Hotel -->
+        <section class="section hotel" id="hotel">
+            <div class="row container">
+                <div class="col">
+                    <div class="title">
+                        <h1>KAIKA TOKYO</h1>
+                        <h2>by THE SHARE HOTELS</h2>
+                    </div>
+                    <p>
+                        Address:<br>
+                        &emsp;〒130-0004 東京都墨田区本所2丁目16-5<br>
+                        &emsp;2-chōme-16-5 Honjo, Sumida City, Tokyo 130-0004日本<br>
+                        Tel: +81 3-3625-2165<br>
+                        Check-in: 15:00<br>
+                        Check-out: 10:00<br>
+                        Station: Asakusa (A2 exit)
+                    </p>
+                    <a href="https://www.thesharehotels.com" class="btn">Know More</a>
+                </div>
+                <div class="col">
+                    <div class="swiper-container slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/kaika_01.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/kaika_02.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/kaika_03.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/kaika_04.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/kaika_05.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Flight -->
+        <section class="section flight" id="flight">
+            <div class="row container">
+                <img loading="lazy" src="img/星宇.jpeg" alt="">
+                <div class="col">
+                    <div class="title">
+                        <h1>STARLUX ❌ SPIDER-MAN</h1>
+                    </div>
+                    <p>
+                        Tokyo (NRT T2)<br>
+                        Departure Time: 06/25 13:55<br>
+                        <br>
+                        Taipei (TPE T1)<br>
+                        Arrival Time: 06/25 16:25
+                    </p>
+                    <div class="d-flex">
+                        <h2>Booking Reference: 6W7258</h2>
+                        <div class="rating">
+                            <span><i class="bx bxs-heart"></i></span>
+                            <span><i class="bx bxs-heart"></i></span>
+                            <span><i class="bx bxs-heart"></i></span>
+                            <span><i class="bx bxs-heart"></i></span>
+                            <span><i class="bx bxs-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <h3>Flight: JX801</h3>
+                        <a href="https://www.starlux-airlines.com/zh-TW/booking/manage-my-trip/manage-my-trip" class="btn">Information</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 40 Anniversary -->
+        <section class="section anniversary">
+            <div class="overlay">
+                <video loading="lazy" class="video">
+                    <source src="img/disney40.mp4" type="video/mp4">
+                    <source>
+                </video>
+            </div>
+            <div class="content">
+                <h1>
+                    Tokyo Disney<br>
+                    40 Anniversary
+                </h1>
+                <a href="" class="btn">Dream Go-Round</a>
+                <span class="video-control d-flex"><i class="bx bx-play"></i></span>
+            </div>
+        </section>
+        <!-- Attraction -->
+        <section class="section attraction" id="attraction">
+            <div class="title">
+                <h1>Start Your Dream at<br>Tokyo Disney</h1>
+                <p>
+                    Magical park where dreams come true, with beloved Disney characters, thrilling rides, and unforgettable experiences.
+                </p>
+            </div>
+            <div class="row container">
+                <div class="swiper-container slider-3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="img/disney_06.PNG" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="img/disney_01.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="img/disney_02.PNG" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="img/disney_03.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="img/disney_04.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="img/disney_05.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="img/disney_07.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="custom-next d-flex">
+                        <i class="bx bx-chevron-left swiper-icon"></i>
+                    </div>
+                    <div class="custom-prev d-flex">
+                        <i class="bx bx-chevron-right swiper-icon"></i>
+                    </div>
+                </div>
+                <div class="custom-pagination d-flex"></div>
+            </div>
+            <div class="explore">
+                <a href="" class="btn">Have Fun</a>
+            </div>
+        </section>
+
+        <!-- cuisine Section -->
+        <section class="section cuisine" id="cuisine">
+            <div class="row container">
+            <div class="col">
+                <div class="title">
+                <h1>
+                    Cuisine in<br>
+                    Tokyo
+                </h1>
+                <p>
+                    Tokyo, where you can relish the finest sushi, slurp authentic ramen, savor crispy tempura, and indulge in the heavenly flavors of premium wagyu beef, all contributing to an unforgettable food experience.
+                </p>
+                </div>
+                <div class="tours">
+                <div class="box">
+                    <img loading="lazy" src="img/pic_淺草今半.jpeg" alt="">
+                    <h3>浅草今半</h3>
+                    <h4>Asakusa, Tokyo</h4>
+                </div>
+                <div class="box">
+                    <img loading="lazy" src="img/pic_虎杖.jpeg" alt="">
+                    <h3>築地虎杖</h3>
+                    <h4>Tsukiji, Tokyo</h4>
+                </div>
+                </div>
+                <a href="#" class="btn">Bon Appétit</a>
+            </div>
+            <div class="col">
+                <img loading="lazy" src="img/love&table.jpeg" alt="">
+            </div>
+            </div>
+        </section>
+
+         <!-- Sky -->
+         <section class="section sky">
+            <div class="overlay">
+                <video loading="lazy" muted autoplay loop class="video">
+                    <source src="img/shibuya_sky.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="content">
+                <h1>
+                    Shibuya Sky
+                </h1>
+            </div>
+        </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row container">
+            <h3>Ray Chang &copy; Tokyo & Disney.<br>All rights reserved.</h3>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
